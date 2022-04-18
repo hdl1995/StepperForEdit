@@ -1,6 +1,6 @@
 {
   "name": "@riil-frontend/block-stepper-for-edit",
-  "version": "0.1.1-a",
+  "version": "0.1.2",
   "description": "这是一个带有编辑式状态的步骤条",
   "files": [
     "src/",
@@ -45,6 +45,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://172.17.189.70/riil-insight/riil-insight-materials/-/tree/feature-hdl-v1.0.1/blocks/StepperForEdit"
+    "url": "https://github.com/hdl1995/StepperForEdit"
   }
 }
