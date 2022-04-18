@@ -24,11 +24,8 @@ function StepperEditBlock(props) {
   const [dataEdit, setDataEdit] = useState(editData);
   const [current, setCurrent] = useState(0);
   return (
-    <>
-      <div style={{ marginLeft: 180, marginBottom: 50, marginTop: 100 }}>
-        这是一个步骤条，当所有步骤都完成后就变成了可编辑的状态：
-      </div>
-      <div>
+    <div>
+      <div style={{ marginTop: 100 }}>
         <Step current={currentStep} labelPlacement="ver" shape="dot">
           {dataSource.map((item, index) => {
             return (
@@ -90,10 +87,7 @@ function StepperEditBlock(props) {
         </Step>
       </div>
 
-      <div style={{ marginLeft: 180, marginBottom: 50, marginTop: 100 }}>
-        这是一个步骤条，进入页面即为编辑状态：
-      </div>
-      <div>
+      <div style={{ marginTop: 100 }}>
         <Step current={current} labelPlacement="ver" shape="dot">
           {dataEdit.map((item, index) => {
             return (
@@ -121,7 +115,7 @@ function StepperEditBlock(props) {
           })}
         </Step>
       </div>
-    </>
+    </div>
   );
 }
 
