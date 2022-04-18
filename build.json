@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "build-plugin-block",
+    [
+      "build-plugin-fusion",
+      {
+        "themePackage": "@alifd/theme-19926"
+      }
+    ],
+    [
+      "build-plugin-moment-locales",
+      {
+        "locales": ["zh-cn"]
+      }
+    ]
+  ]
+}

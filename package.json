@@ -1,0 +1,50 @@
+{
+  "name": "@riil-frontend/block-stepper-for-edit",
+  "version": "0.1.1-a",
+  "description": "这是一个带有编辑式状态的步骤条",
+  "files": [
+    "src/",
+    "build/",
+    "screenshot.png"
+  ],
+  "keywords": [
+    "ice",
+    "react",
+    "block"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "screenshot": "screenshot -l -s mountNode",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.8",
+    "@alifd/next": "^1.25.29",
+    "@alifd/theme-19926": "^0.40.0",
+    "@ice/screenshot": "^0.1.1",
+    "build-plugin-block": "^1.0.0",
+    "build-plugin-fusion": "^0.1.0",
+    "build-plugin-moment-locales": "^0.1.0",
+    "core-js": "^3.22.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "blockConfig": {
+    "name": "StepperForEdit",
+    "title": "编辑式步骤条",
+    "category": "DataDisplay"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://172.17.189.70/riil-insight/riil-insight-materials/-/tree/feature-hdl-v1.0.1/blocks/StepperForEdit"
+  }
+}
